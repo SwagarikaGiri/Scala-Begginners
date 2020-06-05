@@ -6,4 +6,5 @@ public class JavaPlayGround {
         System.out.println("Hello Java");
 
     }
+
 }
