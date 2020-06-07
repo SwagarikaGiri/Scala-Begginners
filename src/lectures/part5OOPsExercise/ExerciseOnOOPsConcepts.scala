@@ -69,7 +69,7 @@ class CollectionListGeneric[+A](h:A,t:MyListGeneric[A]) extends MyListGeneric[A]
   /*
   Lets see how filter works
   [1,2,3].filter(n%2==0)
-  =first element fail 
+  =first element fail
   =[2,3].filter(n%2==0)
   =new Cons(2,[3].filter(n%2)==0)
   =new Cons(2,empty.filter(n%2)==0)
