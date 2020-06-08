@@ -1,0 +1,5 @@
+package scalaWithCatFramework
+
+object Trial {
+
+}
