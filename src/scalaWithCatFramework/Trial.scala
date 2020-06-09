@@ -1,5 +1,0 @@
-package scalaWithCatFramework
-
-object Trial {
-
-}

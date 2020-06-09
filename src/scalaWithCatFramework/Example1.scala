@@ -1,6 +1,6 @@
 package scalaWithCatFramework
 
-object Part1IntroToCatFrameWork extends App {
+object Example1 extends App {
   trait Printable[T]{
     def format(value:T):String
   }
@@ -37,6 +37,11 @@ PrintableInterface.print("Swagarika Giri")
   There is another thing pip my library beautiful methods
    */
 
+implicit class PrintableSyntax[T](value:T){
+  def print(implicit printable: Printable[T]):Unit = println(printable.format(value))
 
+}
+
+  "Swagarika".print
 
 }
